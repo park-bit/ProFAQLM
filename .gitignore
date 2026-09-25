@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Model checkpoints & weights (upload to Hugging Face, do not commit to Git)
+models/
+checkpoints/
+lora_adapters/
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.gguf
+
+# HuggingFace & Wandb caches
+.cache/
+data/hf_cache/
+wandb/
+
+# Local credentials
+.env
+hf_token.txt
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local training notes and walkthrough
+TRAINING_STEPS.md
+TRAINING_GUIDE.md
