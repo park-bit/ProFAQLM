@@ -2,7 +2,7 @@
 
 ProFAQLM is an instruction fine-tuning and export pipeline designed to train lightweight language models for academic document Q&A, structured exam answers, and citation-grounded retrieval.
 
-- **Hugging Face Model & GGUF**: [park-bit/ProFAQLM-3B-Exam](https://huggingface.co/park-bit/ProFAQLM-3B-Exam)
+- **Hugging Face Model & GGUF**: [park-bit/ProFAQLM-3B](https://huggingface.co/park-bit/ProFAQLM-3B)
 - **Kaggle Training Notebook**: [parthbhuskade/profaqlm-ipynb](https://www.kaggle.com/code/parthbhuskade/profaqlm-ipynb)
 - **GitHub Repository**: [park-bit/ProFAQLM](https://github.com/park-bit/ProFAQLM)
 
