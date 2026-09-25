@@ -2,7 +2,9 @@
 
 ProFAQLM is an instruction fine-tuning and export pipeline designed to train lightweight language models for academic document Q&A, structured exam answers, and citation-grounded retrieval.
 
-The repository provides configurations, schemas, and runtime definitions to prepare datasets, run 4-bit QLoRA fine-tuning, merge weights, quantize to GGUF format, and run local inference via Ollama.
+- **Hugging Face Model & GGUF**: [park-bit/ProFAQLM-3B-Exam](https://huggingface.co/park-bit/ProFAQLM-3B-Exam)
+- **Kaggle Training Notebook**: [parthbhuskade/profaqlm-ipynb](https://www.kaggle.com/code/parthbhuskade/profaqlm-ipynb)
+- **GitHub Repository**: [park-bit/ProFAQLM](https://github.com/park-bit/ProFAQLM)
 
 ## Features
 
@@ -18,7 +20,8 @@ The repository provides configurations, schemas, and runtime definitions to prep
 ProFAQLM/
 ├── data/
 │   └── example_dataset.jsonl      # Reference schema and sample records
-├── notebooks/                     # Interactive training notebooks (Kaggle / Colab)
+├── notebooks/
+│   └── ProFAQLM.ipynb             # Interactive training notebook (Kaggle / Colab)
 ├── Modelfile                      # Ollama runtime definition
 ├── requirements.txt               # Python package dependencies
 ├── LICENSE                        # MIT License
